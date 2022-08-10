@@ -77,6 +77,10 @@ You are required to model the demand for shared bikes with the available indepen
 
 We can see that the equation of our best fitted line is:
 cnt = 0.508462 + 0.245724 \times yr - 0.085507 \times holiday - 0.190233 \times windspeed - 0.250334 \times season_spring -0.049694 \times season_summer-0.023054 \times season_winter-0.108634 \times mnth_Dec -0.120162 \times mnth_Jan-0.018222 \times mnth_Jul-0.099464 \times mnth_Nov+0.053371 \times mnth_Sep+0.086918 \times weathersit_clear-0.224786 \times weathersit_light
+
+The r2-score on the test is 77.8% and that of the the train is 79.2% so it is almost near to train around 1.4 difference which is acceptable within 2% difference. So what the model has learnt on the training set was able to generalize on the test set.
+
+
 Overall we have a decent model.
 
 # Top 3 significant features are
